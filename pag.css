@@ -1,0 +1,173 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: url('Back.jpg') no-repeat;
+}
+
+p {
+	font-weight: 300; 
+	padding: 15px;
+	padding-top: 0;
+}
+
+
+a:link{
+	color: #b1616a; 
+	text-decoration: none;
+  	font-weight: 500;
+}
+
+a:hover { 
+	color: #97444d;  
+	background: #8f9399;
+	font-weight: bold }
+
+a:visited{
+	color:white;
+	text-decoration: none;
+	font-weight: 500;	
+}
+
+nav ul li {
+	display: inline-block; 
+	position: relative;
+}
+
+nav ul li ul {
+	display: none;
+}
+
+nav ul li:hover ul {
+	display: block; 
+	position: absolute;}
+
+.listado {
+	list-style: none;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+
+#div-contenedor {
+background: white; 
+padding: 10px; 
+overflow: hidden; 
+margin: 40px 40px auto; 
+padding: 0 10;
+
+}
+
+header {
+	background: url(header2.jpg); 
+	padding: 20px; 
+	width: auto;
+	margin: 15px;
+
+}
+
+h1 {
+  font-weight: 700; 
+  font-size: 35px;
+  color: white;
+  text-align: right;
+}
+
+h2 { 
+  font-weight: 500; 
+  text-align: right;
+}
+
+.h3-personajes {
+	font-weight: 700; 
+	background: red; 
+	margin-right: 10px; 
+	margin-left: 15px;
+	margin-top: 0px;
+	padding: 15px ; 
+	widht: 300; 
+	color: white;
+}
+
+.h3-casting {
+	font-weight: 700; 
+	background: blue; 
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	padding: 15px; 
+	widht: 300; 
+	color: white;
+	
+}
+
+.h3-rodaje {
+	font-weight: 700; 
+	background: green; 
+	margin-right: 15px;
+	margin-left: 10px;
+	margin-top: 0px;
+	padding: 15px; 
+	widht: 300; 
+	color: white;
+	
+
+}
+
+.div-contenedor-parrafos {}
+
+.borde-rojo {
+	border-right: dotted;
+	border-color: red;
+}
+
+.borde-azul {
+	border-right: dotted;
+	border-color: blue;
+}
+
+
+
+.flotacion {
+	float: left; 
+	width: 33%; 
+	padding: 20; 
+}
+
+.titulo-historia { 
+  font-weight: 500;
+  color: red;
+}
+
+.rojo {
+	color: red;
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
